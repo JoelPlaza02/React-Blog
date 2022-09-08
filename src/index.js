@@ -6,7 +6,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import { Auth0Provider } from '@auth0/auth0-react';
 
-const uri='http://localhost:3000/upload';
+const uri='http://localhost:3000/callback';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
